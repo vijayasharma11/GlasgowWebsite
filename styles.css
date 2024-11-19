@@ -1,0 +1,137 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+    text-align: center; /* Centers text content in the body */
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #b38181;
+    color: white;
+    padding: 10px 0;
+    text-align: center; /* Centers the header content */
+}
+
+
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.venue {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.venue img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* Center the main content */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; /* Centers the section horizontally */
+}
+
+/* Center all h1, h2, and h3 tags */
+h1, h2, h3 {
+    text-align: center; /* Centers the headings */
+    color: #333;
+}
+
+/* Center the images */
+section img {
+    width: 100%;
+    max-width: 600px; /* Ensures the image doesn’t grow too large */
+    height: auto;
+    border-radius: 8px;
+    display: block; /* Makes image behave as a block element */
+    margin-left: auto;
+    margin-right: auto; /*Centers the image horizontally */
+}
+
+
+.museum {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.museum img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+section {
+    padding: 20px;
+}
+/* Footer styles */
+footer {
+    background-color:  #b38181;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.comedian img {
+    width: 250px;
+    height: 250px;
+    /* object-fit: cover; */
+    /* border-radius: 10px; */
+    /* margin-right: 20px;
+} */
+
+. overview-image {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+
+
