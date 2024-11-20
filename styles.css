@@ -3,18 +3,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #d5e7f1;
     color: #333333;
     text-align: center; /* Centers text content in the body */
     line-height: 1.6;
+    
 }
 
 /* Header styles */
 header {
-    background-color: #b38181;
+    background-color:#005EB8;
     color: white;
-    padding: 10px 0;
+    padding:  0;
     text-align: center; /* Centers the header content */
+    position: sticky;
+    top: 0;
 }
 
 
@@ -31,32 +34,23 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: rgb(21, 20, 20);
     text-decoration: none;
 }
 
 .venue {
     margin: 20px 0;
     padding: 15px;
-    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .venue img {
     width: 100%;
-    max-width: 600px;
+    max-width: 250px;
     height: auto;
-}
-
-/* Center the main content */
-section {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto; /* Centers the section horizontally */
 }
 
 /* Center all h1, h2, and h3 tags */
@@ -68,14 +62,13 @@ h1, h2, h3 {
 /* Center the images */
 section img {
     width: 100%;
-    max-width: 600px; /* Ensures the image doesn’t grow too large */
+    max-width: 250px; /* Ensures the image doesn’t grow too large */
     height: auto;
     border-radius: 8px;
     display: block; /* Makes image behave as a block element */
     margin-left: auto;
     margin-right: auto; /*Centers the image horizontally */
 }
-
 
 .museum {
     margin: 20px 0;
@@ -87,24 +80,15 @@ section img {
 
 .museum img {
     width: 100%;
-    max-width: 600px;
+    max-width: 250px;
     height: auto;
     border-radius: 8px;
 }
 
-section {
-    padding: 20px;
-}
+/* section {
+    padding: 3px;
+} */
 /* Footer styles */
-footer {
-    background-color:  #b38181;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 
 
 a {
@@ -116,22 +100,51 @@ a:hover {
     text-decoration: underline;
 }
 
+.comedian {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comedian img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.overview {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 
 .comedian img {
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     height: 250px;
-    /* object-fit: cover; */
-    /* border-radius: 10px; */
-    /* margin-right: 20px;
-} */
-
-. overview-image {
-
-    width: 250px;
-    height: 250px;
-
+    border-radius: 8px;
 }
+
+footer {
+    background-color:  #005EB8;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+
+
 
 
 
