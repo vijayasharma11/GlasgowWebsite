@@ -3,83 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glasgow Music Venues</title>
+    <title>Explore Glasgow</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- Header -->
     <header>
-        <!-- Header with Logo -->
-    
         <div class="header-container">
             <img src="images/logo.jpg" alt="Glasgow Logo" class="logo">
-            
         </div>
         <div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="comedians.html">Comedians</a></li>
-                    <li><a href="music.html">Music</a></li>
-                    <li><a href="museums.html">Museums</a></li>
+                    <li><a href="index.html" aria-label="Go to Home page">Home</a></li>
+                    <li><a href="comedians.html" aria-label="Explore comedians">Comedians</a></li>
+                    <li><a href="music.html" aria-label="Explore music venues">Music</a></li>
+                    <li><a href="museums.html" aria-label="Explore museums in Glasgow">Museums</a></li>
                 </ul>
             </nav>
         </div>
+        
     </header>
-    <h2>Glasgow Music Venues</h2>
+    <div class="header">
+        <h2 style="text-align: center;">Music in Glasgow</h2>
+    </div> 
+
     <!-- Main Content -->
-   
+    <div class="grid-container">
 
-        <!-- Barrowlands -->
-        <div class="venue">
+        <!-- Glasgow Music Venues Section -->
+        <div class="left">
             <img src="images/barrowlands.jpg" alt="Barrowlands venue exterior at night" />
-            <h3><a href="https://barrowland.co.uk/" target="_blank">Barrowlands</a></h3>
+            <h3 style="text-align: center;"><a href="https://barrowland.co.uk/" target="_blank">Barrowlands</a></h3>
             <p>Known for its iconic neon lights and lively atmosphere, Barrowlands is a legendary venue in Glasgow’s music scene. It hosts live performances from both established and up-and-coming artists across various genres.</p>
-           
-            
         </div>
 
-        <!-- King Tut's Wah Wah Hut -->
-        <div class="venue">
+        <!-- King Tut’s Wah Wah Hut Section -->
+        <div class="middle">
             <img src="images/king-tuts.jpg" alt="King Tut’s Wah Wah Hut, Glasgow" />
-            <h3><a href="http://www.kingtuts.co.uk" target="_blank">King Tut's Wah Wah Hut</a></h3>
+            <h3 style="text-align: center;"><a href="http://www.kingtuts.co.uk" target="_blank">King Tut's Wah Wah Hut</a></h3>
             <p>King Tut’s is a small but mighty venue in the heart of Glasgow. It's known for its intimate setting and rich history of launching the careers of iconic bands, such as Oasis.</p>
-            
-            
         </div>
 
-        <!-- OVO Hydro -->
-        <div class="venue">
+        <!-- OVO Hydro Section -->
+        <div class="right">
             <img src="images/ovo-hydro.jpg" alt="OVO Hydro arena with crowd during a concert" />
-            <h3><a href="http://www.ovoglasgow.co.uk" target="_blank">OVO Hydro</a></h3>
+            <h3 style="text-align: center;"><a href="https://www.sec.co.uk/organise-an-event/event-spaces/the-ovo-hydro" target="_blank">OVO Hydro</a></h3>
             <p>The OVO Hydro is Glasgow’s premier arena for large-scale concerts and events. Hosting major international artists, it offers an unforgettable concert experience with state-of-the-art facilities.</p>
-            
-           
         </div>
 
-        <!-- Cathouse -->
-        <div class="venue">
+        <!-- Cathouse Section -->
+        <div class="left">
             <img src="images/cathouse.jpg" alt="Cathouse nightclub in Glasgow" />
-            <h3><a href="http://www.cathouse.co.uk" target="_blank">Cathouse</a></h3>
+            <h3 style="text-align: center;"><a href="http://www.cathouse.co.uk" target="_blank">Cathouse</a></h3>
             <p>A beloved venue for rock and metal fans, Cathouse is Glasgow’s longest-running rock club. Its dark, gritty atmosphere and high-energy events make it a favorite for fans of alternative music.</p>
-           
-            
         </div>
 
-        <!-- Glasgow Concert Halls -->
-        <div class="venue">
+        <!-- Glasgow Concert Halls Section -->
+        <div class="middle">
             <img src="images/glasgow-concert-halls.jpg" alt="Glasgow Concert Halls exterior" />
-            <h3><a href="http://www.glasgowconcerthalls.com" target="_blank">Glasgow Concert Halls</a></h3>
+            <h3 style="text-align: center;"><a href="http://www.glasgowconcerthalls.com" target="_blank">Glasgow Concert Halls</a></h3>
             <p>The Glasgow Concert Halls are home to a wide range of musical performances, from classical orchestras to contemporary music. It’s a cultural landmark in the city’s music scene.</p>
-            
-            
         </div>
-    
+    </div>
 
     <!-- Footer -->
     <footer>
-        <p>Explore Glasgow &copy; 2024</p>
+        <div class="footer-container">
+            <p>&copy; 2024 Explore Glasgow. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a> |
+                <a href="terms.html">Terms of Service</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
     </footer>
 
 </body>

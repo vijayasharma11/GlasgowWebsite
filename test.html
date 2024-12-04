@@ -3,68 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glasgow</title>
+    <meta name="description" content="Explore Glasgow's vibrant culture, including its rich history, museums, music venues, and picturesque riverside views.">
+    <title>Explore Glasgow</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header with Logo -->
+
+    <!-- Header -->
     <header>
         <div class="header-container">
             <img src="images/logo.jpg" alt="Glasgow Logo" class="logo">
-            <h1>Welcome to Glasgow</h1>
         </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" aria-label="Go to Home page">Home</a></li>
+                <li><a href="comedians.html" aria-label="Explore comedians">Comedians</a></li>
+                <li><a href="music.html" aria-label="Explore music venues">Music</a></li>
+                <li><a href="museums.html" aria-label="Explore museums in Glasgow">Museums</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Main Content Section -->
+    <!-- Main Content -->
     <main>
-        <section id="glimpse">
-            <h2>Explore Glasgow</h2>
-            <div class="images">
-                <img src="glasgow_image.jpg" alt="Glasgow city view" class="city-image">
-                <img src="river_clyde.jpg" alt="River Clyde" class="river-image">
+        <section class="grid-container">
+            <header class="header">
+                <h2>Overview of Glasgow</h2>
+            </header>
+            <div class="left">
+                <h3>Glasgow, Scotland</h3>
+                <img src="images/glasgow_overview.jpg" alt="Glasgow City View" class="overview-img">
+                <p>Situated on the River Clyde, Glasgow offers a variety of outdoor experiences, including scenic riverside walks, nearby parks, and outdoor markets. The city's unique blend of historic charm and modern excitement makes it an exciting destination for all kinds of travelers.</p>
+            </div>
+
+            <div class="middle">
+                <h3>The River Clyde</h3>
+                <img src="images/river-clyde.jpg" alt="View of the River Clyde in Glasgow" height="150px">
+                <p>The River Clyde flows through the heart of Glasgow, offering stunning views of the city's architecture, including the iconic Glasgow Science Centre and the Riverside Museum. This river has played an important role in the city’s industrial heritage.</p>
+            </div>
+
+            <div class="right">
+                <h3>The River Kelvin</h3>
+                <img src="images/river-kelvin.jpg" alt="The River Kelvin, Glasgow">
+                <p>The River Kelvin is a peaceful tributary of the River Clyde, offering lush green spaces and scenic walking paths. It's a favorite spot for locals to relax and enjoy nature, and it winds through the picturesque Kelvingrove Park.</p>
             </div>
         </section>
+    </main>
 
-        <section id="river-kelvin">
-            <h2>River Kelvin</h2>
-            <div class="content">
-                <img src="river_kelvin_image.jpg" alt="River Kelvin" class="river-kelvin-image">
-                <p>The River Kelvin flows through the heart of Glasgow, offering picturesque views and scenic walks. It is known for its beautiful green spaces and historic landmarks along its banks.</p>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Explore Glasgow. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a> |
+                <a href="terms.html">Terms of Service</a> |
+                <a href="contact.html">Contact</a>
             </div>
-        </section>
-
-        <section id="comedians">
-            <h2>Comedians from Glasgow</h2>
-            <div class="comedian-list">
-                <div class="comedian">
-                    <img src="comedian1.jpg" alt="Comedian 1" class="comedian-image">
-                    <p><a href="https://comedian1website.com" target="_blank">Comedian 1</a></p>
-                </div>
-                <div class="comedian">
-                    <img src="comedian2.jpg" alt="Comedian 2" class="comedian-image">
-                    <p><a href="https://comedian2website.com" target="_blank">Comedian 2</a></p>
-                </div>
-            </div>
-        </section>
-
-        <section id="music">
-            <h2>Glasgow Music Venues</h2>
-            <ul>
-                <li><a href="https://www.barrowlandsglasgow.com" target="_blank">Barrowlands</a></li>
-                <li><a href="https://kingtuts.co.uk" target="_blank">King Tuts Wah Wah Hut</a></li>
-                <li><a href="https://ovohydro.com" target="_blank">OVO Hydro</a></li>
-                <li><a href="https://www.cathouse.co.uk" target="_blank">Cathouse</a></li>
-                <li><a href="https://www.glasgowconcerthalls.com" target="_blank">Glasgow Concert Halls</a></li>
-            </ul>
-        </section>
-
-        <section id="museums">
-            <h2>Glasgow Museums</h2>
-            <ul>
-                <li><a href="https://www.glasgowmuseums.com/kelvingrove" target="_blank">Kelvingrove Art Gallery and Museum</a></li>
-                <li><a href="https://www.glasgowlife.org.uk/museums/goma" target="_blank">Gallery of Modern Art (GOMA)</a></li>
-                <li><a href="https://www.burrellcollection.com" target="_blank">Burrell Collection</a></li>
-                <li><a href="https://www.glasgowlife.org.uk/museums/peoples-palace" target="_blank">Peoples Palace and Winter Gardens</a></li>
-                <li><a href="https://www.glasgowlife.org.uk/museums/st-mungos-museum" target="_blank">St Mungo's Museum of Religious Life and Art</a></li>
-                <li><a href="https://www.glasgowlife.org.uk/museums/kelvin-hall" target="_blank">Kelvin Hall International Sports Arena</a></li>
-                <li><a href="https://www.glasgowlife.org.uk/museums/scotland-str
+        </div>
+    </footer>
+</body>
+</html>

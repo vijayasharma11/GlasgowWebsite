@@ -3,72 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Glasgow</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- Header -->
     <header>
-        <!-- Header with Logo -->
         <div class="header-container">
             <img src="images/logo.jpg" alt="Glasgow Logo" class="logo">
         </div>
-        <div> 
+        <div>
             <nav>
                 <ul>
-                     <li><a href="index.html">Home</a></li>
-                    <li><a href="comedians.html">Comedians</a></li>
-                    <li><a href="music.html">Music</a></li>
-                    <li><a href="museums.html">Museums</a></li>
+                    <li><a href="index.html" aria-label="Go to Home page">Home</a></li>
+                    <li><a href="comedians.html" aria-label="Explore comedians">Comedians</a></li>
+                    <li><a href="music.html" aria-label="Explore music venues">Music</a></li>
+                    <li><a href="museums.html" aria-label="Explore museums in Glasgow">Museums</a></li>
                 </ul>
             </nav>
-    </div>
-       
+        </div>
+        
     </header>
-
-    <h2>Glasgow Comedians</h2> <!-- Fixed the extra ">" -->
+    <div class="header" >
+        <h2 style="text-align: center;">Glasgow Comedians</h2>
+    </div> 
 
     <!-- Main Content -->
-    
-        <!-- Kevin Bridges -->
-        <div class="comedian">
-            <img src="images/kevin.jpg" alt="Kevin Bridges performing stand-up comedy" />
-            <h3>Kevin Bridges</h3>
-            <p>Kevin Andrew Bridges (born 13 November 1986) is a Scottish stand-up comedian. Known for his observational comedy and sharp wit, he has become one of Scotland's most famous comedic exports. His 2012 television series <em>Kevin Bridges: What's the Story?</em> was based on his stand-up routines and further solidified his place in British comedy.</p>
-            <a href="https://www.kevinbridges.co.uk" target="_blank">Visit Website</a>
-        </div>
+    <div class="grid-container">
+        <!-- <div class="header">
+            <h2>Overview of Glasgow</h2>
+        </div> -->
 
-        <!-- Fern Brady -->
-        <div class="comedian">
+        <!-- Glasgow Overview Section -->
+        <div class="left">
             <img src="images/fern.jpg" alt="Fern Brady performing stand-up comedy" />
-            <h3>Fern Brady</h3>
+            <h3 style="text-align: center;">Fern Brady</h3>
             <p>Fern Marie Brady is a Scottish comedian, podcaster, and writer. She gained recognition for her stand-up comedy at prestigious competitions like the Edinburgh Fringe Festival. Fern has appeared on panel shows such as *8 Out of 10 Cats* and co-created the popular podcast *Wheel of Misfortune* in 2020.</p>
             <a href="https://www.fernbrady.com" target="_blank">Visit Website</a>
         </div>
 
-        <!-- Frankie Boyle -->
-        <div class="comedian">
+        <!-- River Clyde Section -->
+        <div class="middle">
             <img src="images/frankie.jpg" alt="Frankie Boyle performing stand-up comedy" />
-            <h3>Frankie Boyle</h3>
+            <h3 style="text-align: center;">Frankie Boyle</h3>
             <p>Francis Martin Patrick Boyle is a Scottish comedian and writer. Boyle first gained widespread recognition as a regular panellist on the comedy show *Mock the Week* from 2005 until 2009. Known for his dark humor and sharp wit, Frankie has become one of the most controversial and outspoken voices in British comedy.</p>
             <a href="https://www.frankieboyle.com" target="_blank">Visit Website</a>
         </div>
 
-        <!-- Des Clarke -->
-        <div class="comedian">
+        <!-- River Kelvin Section -->
+        <div class="right">
             <img src="images/des.jpg" alt="Des Clarke performing on stage" />
-            <h3>Des Clarke</h3>
+            <h3 style="text-align: center;">Des Clarke</h3>
             <p>Desmond Martin Clarke is a Scottish stand-up comedian and television/radio presenter. He currently presents *Heart Breakfast* on Heart Scotland, writes a weekly column for the *Daily Record*, and hosts the BBC Radio Scotland topical quiz show *Breaking the News*.</p>
             <a href="https://www.speakout.uk" target="_blank">Visit Website</a>
         </div>
-
-        <!-- More comedians as needed -->
-
-    
+    </div>
 
     <!-- Footer -->
     <footer>
-        <p>Explore Glasgow &copy; 2024</p>
+        <div class="footer-container">
+            <p>&copy; 2024 Explore Glasgow. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a> |
+                <a href="terms.html">Terms of Service</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
     </footer>
 
 </body>

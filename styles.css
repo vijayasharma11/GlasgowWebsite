@@ -1,150 +1,91 @@
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #d5e7f1;
-    color: #333333;
-    text-align: center; /* Centers text content in the body */
-    line-height: 1.6;
-    
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d5e7f1;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the body fills the entire viewport */
 }
 
 /* Header styles */
 header {
-    background-color:#005EB8;
-    color: white;
-    padding:  0;
-    text-align: center; /* Centers the header content */
-    position: sticky;
-    top: 0;
+  background-color: #405971;
+  color: white;
+  padding: 2px 0;
+  text-align: center; /* Centers the header content */
+  position: sticky;
+  top: 0;
+  z-index: 100; /* Keeps header on top */
 }
 
-
-
 header nav ul {
-    list-style-type: none;
-    padding: 0;
-    
+  list-style-type: none;
+  padding: 0;
 }
 
 header nav ul li {
-    display: inline;
-    margin: 0 15px;
+  display: inline;
+  margin: 0 15px;
 }
 
 header nav ul li a {
-    color: rgb(21, 20, 20);
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-.venue {
-    margin: 20px 0;
-    padding: 15px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* Grid container to organize sections */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 1; /* Ensures the content takes up available space, pushing footer to the bottom */
 }
 
-.venue img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    border-radius: 8px;
+.left, .middle, .right {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Center all h1, h2, and h3 tags */
-h1, h2, h3 {
-    text-align: center; /* Centers the headings */
-    color: #333;
+h2, h3 {
+  color: #333;
 }
 
-/* Center the images */
-section img {
-    width: 100%;
-    max-width: 250px; /* Ensures the image doesn’t grow too large */
-    height: auto;
-    border-radius: 8px;
-    display: block; /* Makes image behave as a block element */
-    margin-left: auto;
-    margin-right: auto; /*Centers the image horizontally */
+img {
+  width: 100%;
+  max-width: 250px; /* Ensures the image doesn’t grow too large */
+  height: 150px;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.museum {
-    margin: 20px 0;
-    padding: 15px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.museum img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* section {
-    padding: 3px;
-} */
 /* Footer styles */
-
-
-a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.comedian {
-    margin: 20px 0;
-    padding: 15px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.comedian img {
-    width: 100%;
-    max-width: 250px;
-    height: 250px;
-    border-radius: 8px;
-}
-
-.overview {
-    margin: 20px 0;
-    padding: 15px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-
-.comedian img {
-    width: 100%;
-    max-width: 250px;
-    height: 250px;
-    border-radius: 8px;
-}
-
 footer {
-    background-color:  #005EB8;
-    color: white;
-    text-align: center;
-    padding: 3px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    position: sticky;
-    top: 0;
+  background-color:  #405971;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  margin-top: auto; /* Ensures the footer is pushed to the bottom */
 }
 
+/* Responsive layout - stacks the columns and adjusts footer */
+@media (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: 1fr; /* Stacks the columns */
+  }
 
+  footer {
+      padding: 10px;
+  }
 
-
-
-
+ 
+}
